@@ -20,10 +20,10 @@ class _ListingViewState extends State<ListingView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Drawer(),
+      drawer:const  Drawer(),
       backgroundColor: Colors.black,
       appBar: AppBar(
-        leading: Icon(Icons.arrow_circle_right_rounded),
+        leading: const Icon(Icons.arrow_circle_right_rounded),
         title: Text(
           "Riders Club",
           style: GoogleFonts.acme(textStyle: const TextStyle(fontSize: 25)),
